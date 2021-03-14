@@ -1,0 +1,31 @@
+In technical, we cannot say that which framework is the best.
+In different cases, with different resources such as time, people, ..., there couldnt be one solution for any cases.
+
+In technical, we need to find silver bullet for each requirements.
+
+So now, I will compare framework and when we will choose it.
+Angular vs React
+
+There are tons of articles & talk about comparision in deeply technical
+    https://www.codeinwp.com/blog/angular-vs-vue-vs-react/
+    https://blog.logrocket.com/angular-vs-react-vs-vue-a-performance-comparison/
+
+So now, I would talk about my personal view when initial a new project: 
+    I would choose Angular if project:
+        + Large scale in business features (not technical features).
+        + Not too much complex in state between each component.
+        + Requirements technical Typescript or backend with NestJS.
+        + No need in structure codebase.
+        + If that project is Web admin
+    
+    I would choose React if project:
+        + Need to develop and go live fast.
+        + Deeply customize each component.
+        + Need to integrate with old project.
+        
+=> Nowsaday, I believe 80% what can do in Angular that can do in React.
+So basicly, mostly I focus on time & people when initial new project.
+What kind of technical that my team more familiar & how long the project would be.
+
+Moreover, thanks for micro-frontend, we could choose different framework or libs frontend
+for different component in websites.
