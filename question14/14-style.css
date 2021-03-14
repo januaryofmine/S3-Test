@@ -1,0 +1,27 @@
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.item {
+  flex-grow: 0.25;
+  border: 1px solid;
+  background-color: #cb997e;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+}
+
+@media (max-width: 720px) {
+  .item {
+    width: calc(50% - 2px);
+  }
+}
+
+@media (max-width: 360px) {
+  .item {
+    width: calc(100% - 2px);
+  }
+}

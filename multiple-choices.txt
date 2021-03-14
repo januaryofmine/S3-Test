@@ -1,0 +1,18 @@
+1) e. REMOVE
+2) c. 403
+3) d. Access-Control-Allow-Origin
+4) d. Injection
+    For example: SQL Injection.
+5) e. Validate malformed XML/JSON
+    More considerations:
+        d. All input validations must be done on the server 
+            => This answer kinda true. We must validate all fields in server
+            no matter it already validate or not in client side.
+
+6) c. If true, the request can be handled without waiting. 
+7) a. Maintain the login state security through a database
+8) a. Viewstate can store only serializable object 
+9) c. 6 rows
+10) c. a value type to a reference type
+11) a. HashTable 
+12) a. {1, 2, 3, 4, 5, 7, 9}
